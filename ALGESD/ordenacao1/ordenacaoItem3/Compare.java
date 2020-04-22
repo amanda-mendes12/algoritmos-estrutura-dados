@@ -15,7 +15,7 @@ public class Compare {
               vet[i] = (int) (Math.random() * 1000);
            
            long tempoAntes = System.currentTimeMillis();
-           Insert.insercao(vet);
+           Insert.insert(vet);
            long tempoDepois = System.currentTimeMillis();
            saida1+= "Tamanho = " + tam + "  => Tempo = " + (tempoDepois-tempoAntes) + " ms\n";
 
