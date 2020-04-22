@@ -22,7 +22,7 @@ public class Compare {
            saida1+= "Tamanho = " + tam + "  => Tempo = " + (tempoDepois-tempoAntes) + " ms\n";
 
            tempoAntes = System.currentTimeMillis();
-           Selecao.selecao(vet2);
+           Select.select(vet2);
            tempoDepois = System.currentTimeMillis();
            saida2+= "Tamanho = " + tam + "  => Tempo = " + (tempoDepois-tempoAntes) + " ms\n";
 
